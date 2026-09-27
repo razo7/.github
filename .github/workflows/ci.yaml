@@ -94,6 +94,7 @@ jobs:
               exit 1
             fi
           fi
+          go mod verify
 
       - name: Verify bundle
         run: |
